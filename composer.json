@@ -31,25 +31,25 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "9.2-dev"
+            "dev-master": "9.1-dev"
         },
         "laravel": {
             "providers": [
-                "Vinkla\\Hashids\\HashidsServiceProvider"
+                "Cirelramostrabajo\\Hashids\\HashidsServiceProvider"
             ],
             "aliases": {
-                "Hashids": "Vinkla\\Hashids\\Facades\\Hashids"
+                "Hashids": "Cirelramostrabajo\\Hashids\\Facades\\Hashids"
             }
         }
     },
     "autoload": {
         "psr-4": {
-            "Vinkla\\Hashids\\": "src/"
+            "Cirelramostrabajo\\Hashids\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Vinkla\\Tests\\Hashids\\": "tests/"
+            "Cirelramostrabajo\\Tests\\Hashids\\": "tests/"
         }
     },
     "minimum-stability": "dev",
