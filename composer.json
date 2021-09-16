@@ -14,10 +14,10 @@
     ],
     "require": {
         "php": "^7.3 || ^8.0",
-        "graham-campbell/manager": "^4.4",
+        "graham-campbell/manager": "^4.6",
         "hashids/hashids": "^4.1",
-        "illuminate/contracts": "^8.0",
-        "illuminate/support": "^8.0"
+        "illuminate/contracts": "^8.81",
+        "illuminate/support": "^8.61"
     },
     "require-dev": {
         "graham-campbell/analyzer": "^3.0",
